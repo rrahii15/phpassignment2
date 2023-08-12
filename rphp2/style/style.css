@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.table {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    margin-bottom: 40px;
+}
+
+.jumbotron {
+    background-color: #e9ecef;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.alert {
+    width: 80%;
+    margin: 10px auto;
+}
+
+footer {
+    margin-top: 50px;
+}
+/* Logo Styles */
+.navbar-brand img {
+    max-height: 40px;
+    width: auto; /* Maintains aspect ratio */
+    margin-right: 10px;
+}
+
+/* General Image Styles */
+img.img-fluid {
+    max-width: 100%;
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Gallery or Product Images (if any) */
+.img-gallery {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+}
+.text-white {
+     color:black!important;
+}
+
+.img-gallery:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Image Caption (if any) */
+.img-caption {
+    font-size: 0.9em;
+    color: #777;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.text-white {
+    color:black!important;
+}
